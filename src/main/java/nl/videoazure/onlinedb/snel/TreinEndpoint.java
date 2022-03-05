@@ -13,7 +13,7 @@ public class TreinEndpoint {
 	public String go() {
 		Trein trein = new Trein();
 		trein.setSnelheid(24);
-		trein.setNaam("de voorste");
+		trein.setNaam("de voorste tweede commit");
 		tr.save(trein);
 		return "gelukt";
 	}
