@@ -15,6 +15,6 @@ public class TreinEndpoint {
 		trein.setSnelheid(24);
 		trein.setNaam("de voorste tweede commit");
 		tr.save(trein);
-		return "gelukt";
+		return "gelukt tweede commit";
 	}
 }
